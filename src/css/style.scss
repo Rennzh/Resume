@@ -309,3 +309,21 @@ footer a {
     transform: scale(1);
   }
 }
+
+.tech-item-list {
+
+  > li {
+    list-style: circle;
+    margin-left: 20px !important;
+  }
+}
+
+.contact-img {
+  width: 19.6px;
+  height: 16px;
+  vertical-align: top;
+
+  ~ * {
+    vertical-align: middle;
+  }
+}
